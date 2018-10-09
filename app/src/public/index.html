@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Agenda</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <h1>Agenda personale</h1>
+    <div>
+    <button id="visualizzaMemo" align=center>
+      Visualizza le memo inserite:
+    </button>
+    <button id="nascondiMemo" align=center>
+      Nascondi le memo inserite:
+    </button>
+  </div>
+    <tr />
+    <tr />
+    <form id="form" align=center>
+      <input type="text" id="newMemo">
+      <button type="submit">Inserisci una memo:</button>
+    </form>
+
+    <table align=center>
+      <thead>
+        <tr>
+        <th>Nr</th>
+          <th>Memo</th>
+          <th>Azione</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

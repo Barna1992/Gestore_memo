@@ -1,0 +1,25 @@
+body{
+    background: skyblue;
+    font-family: tahoma;
+    color: white;
+    item-align: center;
+}
+
+h1{
+    text-align: center;
+    font-style: verdana;
+    font-size: 20;
+}
+
+
+div
+  {
+    text-align: center;
+    height: 50px;
+}
+
+
+form{
+    text-align: center;
+    height: 30px;
+}
